@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
                     jsonItem.put("sell_price", sell.getText());
                     jsonItem.put("cost_price", cost.getText());
 
-                    jsonItem.put("img_path",fileName);
+//                    jsonItem.put("img_path",fileName);
                     jsonItem.put("uploads", getStringImage(bitmap));
                     Log.d("tag", jsonItem.toString(4));
                 }catch (JSONException e) {
