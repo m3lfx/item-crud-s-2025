@@ -305,6 +305,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
     }
 
     private String getStringImage(Bitmap bmp){
